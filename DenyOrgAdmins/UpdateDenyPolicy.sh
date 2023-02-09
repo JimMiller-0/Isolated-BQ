@@ -1,4 +1,4 @@
-gcloud iam policies update IsolateBQFLD \
+gcloud iam policies update isolatebqfld \
     --attachment-point=cloudresourcemanager.googleapis.com/folders/$FOLDER_ID  \
     --kind=denypolicies \
-    --policy-file=deny-permissions.json
+    --policy-file=policy1.json

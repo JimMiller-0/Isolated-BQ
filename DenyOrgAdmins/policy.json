@@ -1,0 +1,12 @@
+{
+  "policies": [
+    {
+      "createTime": "2023-02-09T16:01:55.950223Z",
+      "displayName": "DenyOrgAdmins",
+      "kind": "DenyPolicy",
+      "name": "policies/cloudresourcemanager.googleapis.com%2Ffolders%2F835361836922/denypolicies/isolatebqfld",
+      "uid": "687956a7-e7af-253a-c249-0ecaac9d68bd",
+      "updateTime": "2023-02-09T16:01:55.950223Z"
+    }
+  ]
+}
