@@ -2,9 +2,11 @@
     "displayName": "Deny Org Admins",
     "rules": [
       {
-        "denyRule": {
-          "deniedPrincipals": [
-            "principal://goog/subject/lucian@example.com"
+        "deniedPrincipals": [
+            "principalSet://goog/public:all"
+          ],
+          "exceptionPrincipals": [
+            "principalSet://goog/group/custom-role-admins@example.com"
           ],
           "deniedPermissions": [
             "iam.googleapis.com/roles.create",
@@ -56,6 +58,6 @@
             "iam.googleapis.com/workloadIdentityPools.update"
           ]
         }
-      }
+      
     ]
   }
